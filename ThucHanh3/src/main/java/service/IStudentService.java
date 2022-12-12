@@ -1,0 +1,1 @@
+package service;import model.Student;import java.util.ArrayList;import java.util.List;public interface IStudentService {    List<Student> findAll();    Student findById(Long id);}
